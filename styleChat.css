@@ -1,0 +1,132 @@
+/* -------------GLOBAL----------------- */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25vh ;
+    padding-top: 15vh;
+}
+
+button{
+    border: none
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* -------------Main----------------- */
+div.main{
+    width: 60%;
+    height: 450px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div.divTitle{
+    background-color: rgb(149, 148, 148);
+    width: 95.5%;
+    height: 1rem;
+    display: flex;
+    gap: 1.3rem;
+    align-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+
+#title{
+    font-size: 18px;
+}
+
+div.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+section.section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 38vh;
+    width: 45vw;
+    overflow-y: scroll;
+    overflow-x: inherit;
+    padding: 5px;
+}
+
+div.mensagem{
+    padding-top: 4px;
+    width: 40vw;
+}
+
+
+
+.editar{
+    height: 20px;
+    width: 60px;    
+    position: relative;
+    left: 82%;
+    background-color: orange;
+    font-size: 14px;
+}
+.texto{
+    border: 2px solid black;
+    padding: 2px;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    
+}
+.excluir{
+    height: 20px;
+    width: 60px; 
+    position: relative;
+    left: 81%;
+    background-color: red;
+    font-size: 14px;
+
+}
+
+.editar:hover{
+    background-color: rgb(250, 208, 129); 
+}
+.excluir:hover{
+    background-color: rgb(255, 82, 82);
+}
+
+div.divEnviarMensagem{
+    display: flex;
+    justify-self:flex-end;
+    position:absolute;
+    background-color: rgb(183, 169, 169);
+    width: 25%;
+    height: 7rem;
+    padding: 5px;
+    border: 2px solid black;
+    border-bottom: none;
+    top: 62.2%
+}
+
+#textbox{
+    width: 85%;
+    height: auto;
+}
+
+#submit{
+    width: 13%;
+    height: 25%;
+    margin-left: 1%;
+    border-radius: 15%;
+    background-color: rgb(55, 55, 214);
+    color: white;
+
+}
+
+
+
+
